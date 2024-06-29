@@ -1,0 +1,34 @@
+.selector{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+    
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+}
+#state{
+    height: 40px;
+
+}
+#city{
+    height: 40px;
+}
+#country{
+    height: 40px;
+  
+  
+}
+.city{
+    font-size: x-large;
+}
+.state{
+    color: grey;
+    
+}
