@@ -1,4 +1,4 @@
-.selector{
+/* .selector{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -35,6 +35,41 @@
     font-size: x-large;
 }
 .state{
+    color: grey;
+    font-weight: 600;
+} */
+
+.selector {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#state, #city, #country {
+    height: 40px;
+}
+
+.text {
+    font-size: large;
+    margin-top: 5px;
+    font-weight: 600;
+    font-variant: normal;
+}
+
+.city {
+    font-size: x-large;
+}
+
+.state {
     color: grey;
     font-weight: 600;
 }
