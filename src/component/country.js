@@ -104,7 +104,7 @@ const LocationSelector = () => {
       </div>
 
       {selectedCity && selectedState && selectedCountry && (
-        <h3>You Selected <span className='city'>{selectedCity}</span>, <span className='state'>{selectedState}, {selectedCountry}</span></h3>
+        <span className='text'>You Selected <span className='city'>{selectedCity}</span>, <span className='state'>{selectedState}, {selectedCountry}</span></span>
       )}
     </div>
   );

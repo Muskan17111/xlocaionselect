@@ -25,6 +25,12 @@
   
   
 }
+.text{
+    font-size: large;
+    margin-top: 5px;
+    font-weight: 600;
+    font-variant: normal;
+}
 .city{
     font-size: x-large;
 }
