@@ -77,7 +77,7 @@ const LocationSelector = () => {
             id="state"
             value={selectedState}
             onChange={(e) => setSelectedState(e.target.value)}
-         
+               disabled={!selectedCountry}
           >
             <option value="">Select State</option>
             {states.map((state) => (
@@ -92,7 +92,7 @@ const LocationSelector = () => {
             id="city"
             value={selectedCity}
             onChange={(e) => setSelectedCity(e.target.value)}
-          
+             disabled={!selectedState}
           >
             <option value="">Select City</option>
             {cities.map((city) => (
